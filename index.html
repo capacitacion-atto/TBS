@@ -137,8 +137,8 @@ function buscar(){
 				
       $.getJSON(lkn,function (data) {
        if (data.user.length> 0){
-		<!--if(data.user[0]["ok"]==1){window.location="https://capacitacion-atto.github.io/TBS?ok=jdspkjh";}-->
-		if(data.user[0]["ok"]==1){window.location="TBS.html?jd5kshg9320nh3465211395583920175kdmsk";}
+		if(data.user[0]["ok"]==1){window.location="https://capacitacion-atto.github.io/TBS?jd5kshg9320nh3465211395583920175kdmsk";}
+		
 		else{$("#msg_psw").dialog({modal: true,buttons: {Ok: function() {$( this ).dialog( "close" );}}});$("#psw").val("");$("#psw").focus();}
 	    }
 	  else{$("#msg_uname").dialog({modal: true,buttons: {Ok: function() {$( this ).dialog( "close" );}}});;$("#psw").val("");$("#uname").val("");$("#uname").focus()}
